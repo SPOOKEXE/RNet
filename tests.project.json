@@ -1,0 +1,27 @@
+{
+	"name": "rnet-tests",
+	"tree": {
+		"$className": "DataModel",
+		"ReplicatedStorage": {
+			"$className": "ReplicatedStorage",
+			"$ignoreUnknownInstances": true,
+			"RNetModule" : {
+				"$path": "src"
+			}
+		},
+		"ServerScriptService" : {
+			"$className" : "ServerScriptService",
+			"$ignoreUnknownInstances": true,
+			"$path" : "tests/server"
+		},
+		"StarterPlayer" : {
+			"$className" : "StarterPlayer",
+			"$ignoreUnknownInstances": true,
+			"StarterPlayerScripts" : {
+				"$className" : "StarterPlayerScripts",
+				"$ignoreUnknownInstances": true,
+				"$path" : "tests/client"
+			}
+		}
+	}
+}

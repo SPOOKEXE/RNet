@@ -1,0 +1,13 @@
+{
+	"name": "rnet-roblox-module",
+	"tree": {
+		"$className": "DataModel",
+		"ReplicatedStorage": {
+			"$className": "ReplicatedStorage",
+			"$ignoreUnknownInstances": true,
+			"RNetModule" : {
+				"$path": "src"
+			}
+		}
+	}
+}
